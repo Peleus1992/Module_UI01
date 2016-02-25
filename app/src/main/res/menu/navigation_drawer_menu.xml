@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_group1"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/menu_item_fun1"
+            android:title="Fun1"/>
+
+        <item
+            android:id="@+id/menu_item_fun2"
+            android:title="Fun2"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_group2"
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/menu_item_help"
+            android:title="Help"/>
+    </group>
+</menu>
